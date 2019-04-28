@@ -20,7 +20,7 @@ A simple hello world .NET Core application that reads the message from an API
 #### The console app:
 * The console app is a simple app that reads configuration from a config file.
 * The config file currently has two configurations:
-** Where to write the message to (console in this case)
-** The url to the API
+	* Where to write the message to (console in this case)
+	* The url to the API
 * The console app also has a Writer project which can contain different implementations for the writers.
 * Currently, only the console writer is implemented.
